@@ -4,5 +4,9 @@ const nextConfig = {
     // reactStrictMode: true,
 
 };
-
+module.exports = {
+    trailingSlash: true, // This is important for GitHub Pages
+    basePath: '/charanravi-online.github.ioo', // Change to your repository name
+    // other configurations
+  };
 export default nextConfig;
