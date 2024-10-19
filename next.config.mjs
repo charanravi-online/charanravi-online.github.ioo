@@ -7,4 +7,4 @@ const nextConfig = {
   // other configurations can go here
 };
 
-export default nextConfig; // Exporting the configuration using ES module syntax
+export default nextConfig; // Exporting the configuration

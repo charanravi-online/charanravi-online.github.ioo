@@ -51,13 +51,10 @@ jobs:
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
 
-      - name: Export Next.js site
-        run: ${{ steps.detect-package-manager.outputs.runner }} next export
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./out  # This assumes your build output is in the 'out' directory
 
   deploy:
     environment:
