@@ -1,12 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // output: "export",  // <=== enables static exports
-    // reactStrictMode: true,
-
+  output: "export",  // Enables static exports
+  reactStrictMode: true,
+  trailingSlash: true, // Important for GitHub Pages
+  basePath: '/charanravi-online.github.ioo', // Change to your repository name
+  // other configurations can go here
 };
-module.exports = {
-    trailingSlash: true, // This is important for GitHub Pages
-    basePath: '/charanravi-online.github.ioo', // Change to your repository name
-    // other configurations
-  };
-export default nextConfig;
+
+export default nextConfig; // Exporting the configuration using ES module syntax
