@@ -3,7 +3,7 @@ const nextConfig = {
   output: "export",  // Enables static exports
   reactStrictMode: true,
   trailingSlash: true, // Important for GitHub Pages
-  basePath: '/charanravi-online.github.ioo', // Change to your repository name
+  basePath: '/charanravi-online.github.io', // Change to your repository name
   // other configurations can go here
 };
 
