@@ -110,8 +110,15 @@ export default function Home() {
             // ABOUT //
           </h2>
         <p className="text-center max-w-prose">
-        I'm a Software Developer with years of experience in building software products and crafting solutions.
+        I'm a Software Developer with 3 years of experience across brand and product, at companies large and small. I'm currently actively looking for a new role.
         </p>
+        <p className="text-left max-w-prose">
+        I take pride in my craft, and love mentoring earlier career developers. I develop cross functional partnerships, and thrive in complex, ambiguous environments.
+        </p> 
+      
+
+
+        
         {/* <button className="rounded-full border border-solid border-black transition-colors flex items-center justify-center bg-transparent hover:bg-gray-200 text-sm sm:text-base h-12 px-5 min-w-[150px]">
           Let's Work Together
         </button> */}
